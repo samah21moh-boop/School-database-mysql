@@ -9,8 +9,7 @@ CREATE TABLE `students` (
   `Student_Email` varchar(225) ,
   `Student_Level` varchar(225) ,
   `Study_Track` char(50),
-  `GPA` int ,
-  
+  `GPA` int ,  
 ) 
 CREATE TABLE `teachers_information` (
   `Teacher_id` int PRIMARY KEY,
@@ -19,7 +18,6 @@ CREATE TABLE `teachers_information` (
   `Teacher_Gender` char(50) ,
   `Teacher_Email` varchar(225) ,
   `Office_number` int ,
- 
 ) 
 CREATE TABLE `subject` (
   `Subject_id` int ,
